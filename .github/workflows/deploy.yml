@@ -41,6 +41,12 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build
+        run: npm run build
         
       - name: Setup Pages
         uses: actions/configure-pages@v5
