@@ -1,4 +1,4 @@
-<script setup></script>
+<script lang="js" setup></script>
 
 <template>
   <h1>Ticket Pointer App</h1>
