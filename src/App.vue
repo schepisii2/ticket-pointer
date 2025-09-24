@@ -1,5 +1,7 @@
-<script lang="js" setup></script>
+<script setup></script>
 
 <template>
-  <h1>Ticket Pointer App</h1>
+  <div>
+    <h1>Ticket Pointer App</h1>
+  </div>
 </template>
